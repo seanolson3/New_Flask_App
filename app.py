@@ -56,7 +56,7 @@ def delete(id:int):
 
 
 # Edit an item
-@app.route()
+@app.route("/edit/<int:id>", methods=["GET","POST"])
 def edit(id:int):
     task = MyTask.query.get_or_404(id)
     if request.method == "POST":
@@ -66,7 +66,8 @@ def edit(id:int):
             return redirect("/")
         except Exception as e:
             return f"ERROR{e}"
-
+    else:
+        return "HOME"
 
 
 
