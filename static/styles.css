@@ -2,23 +2,24 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: wheat;
+  background-color: #EAEFEF;
 }
 
 .content {
   max-width: 800px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #fff;
+  color: #EAEFEF;
+  background-color: #333446;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 .content h1 {
-  color: red;
+  color: #EAEFEF;
 }
 .content h4 {
-  color: #666;
+  color: #EAEFEF;
 }
 .content table {
   width: 100%;
@@ -31,20 +32,20 @@ body {
 }
 .content table th th, .content table td th {
   background-color: #f0f0f0;
-  color: #333;
+  color: #EAEFEF;
 }
 .content a {
   display: inline-block;
   padding: 8px 16px;
   margin: 5px;
   border-radius: 20px;
-  background-color: #37353E;
+  background-color: #7F8CAA;
   color: #fff;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 .content a:hover {
-  background-color: #44444E;
+  background-color: #b0c2ec;
 }
 .content input {
   padding: 10px;
@@ -53,10 +54,10 @@ body {
   border-radius: 5px;
 }
 .content #btn_add {
-  background-color: #715A5A;
+  background-color: #B8CFCE;
   color: #fff;
   cursor: pointer;
 }
 .content #btn_add:hover {
-  background-color: #D3DAD9;
+  background-color: #defaf9;
 }/*# sourceMappingURL=styles.css.map */
